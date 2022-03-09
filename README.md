@@ -7,6 +7,12 @@ Requirements: `Windows 8+, Linux/Termux or Google Colab`, `Python3.9+`, `git`
 
 # On Linux/Termux
 
+[INSTALL GIT PACKAGE]
+
+```bash
+apt-get install git -y
+```
+
 1. Clone this repository [Required git Package]
 
 ```bash
