@@ -3,11 +3,11 @@
 
 # Tutorial
 ----
-Requirements: `Windows 8+, Linux or Termux`, `Python3.9+`, `git`
+Requirements: `Windows 8+, Linux/Termux or Google Colab`, `Python3.9+`, `git`
 
 # On Linux/Termux
 
-1. Clone this repository
+1. Clone this repository [Required git Package]
 
 ```bash
 git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
@@ -21,11 +21,8 @@ and insert your ip, port want to ddos
 
 # On Windows 8 or up
 
-1. Clone this repository
-```
-Download ZIP source code and Extract it
-- Link: https://github.com/KhanhNguyen9872/ddos_python3/archive/refs/heads/main.zip
-```
+1. Download this repository
+[Full Source Code](https://github.com/KhanhNguyen9872/ddos_python3/archive/refs/heads/main.zip)
 
 2. Run ddos
 
