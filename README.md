@@ -17,7 +17,7 @@ cd ddos_python3
 
 @ Using Windows
 ```
-Download ZIP source code
+Download ZIP source code and Extract it
 - Link: https://github.com/KhanhNguyen9872/ddos_python3/archive/refs/heads/main.zip
 ```
 
