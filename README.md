@@ -11,7 +11,11 @@ Requirements: `Windows 8+, Linux or Termux`, `Python3.9+`
 @ Using Linux or Termux
 ```bash
 git clone https://github.com/KhanhNguyen9872/ddos_python3.git
+```
+```bash
 chmod -R 777 ddos_python3
+```
+```bash
 cd ddos_python3
 ```
 
@@ -26,8 +30,9 @@ Download ZIP source code and Extract it
 @ Using Linux or Termux
 ```bash
 bash ./run.sh
-and insert your ip, port want to ddos
 ```
+and insert your ip, port want to ddos
+
 @ Using Windows
 
 ```
