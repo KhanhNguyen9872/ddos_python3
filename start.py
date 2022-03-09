@@ -231,21 +231,14 @@ def UrlFixer(original_url):
     original_url = original_url.strip()
     url = ""
     path = "/"
-    port = 80
+    url = str(input("Insert IP/Web http://"))
+    port = str(input("Insert Port: "))
     protocol = "http"
-    if original_url[:7] == "http://":
-        url = original_url[7:]
-    elif original_url[:8] == "https://":
-        url = original_url[8:]
-        protocol = "https"
     tmp = url.split("/")
+    if (port=="443"):
+        protocol = "https"
     website = tmp[0]
     check = website.split(":")
-    if len(check) != 1:
-        port = int(check[1])
-    else:
-        if protocol == "https":
-            port = 443
     target = check[0]
     if len(tmp) > 1:
         path = url.replace(website, "", 1)
