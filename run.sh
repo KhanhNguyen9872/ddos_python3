@@ -3,6 +3,7 @@ if [ -f /usr/bin/apt ] 2> /dev/null; then
   if [ ! -f /usr/bin/python3 ] 2> /dev/null; then
     sudo apt-get update -y
     sudo apt-get upgrade -y
+    sudo apt-get update -y
     sudo apt-get install python3 -y
   fi
 else
@@ -10,6 +11,7 @@ else
     if [ ! -f ~/../usr/bin/python3 ] 2> /dev/null; then
       apt-get update -y
       apt-get upgrade -y
+      apt-get update -y
       apt-get install python3 -y
     fi
   else
