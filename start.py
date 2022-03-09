@@ -1566,7 +1566,7 @@ if __name__ == '__main__':
         from scapy.layers.inet import TCP
         from scapy.all import *
         from socket import gaierror
-    expect:
+    except:
         import os
         os.system('python3 -m pip install -r requirements.txt')
         os.system('python -m pip install -r requirements.txt')
