@@ -20,21 +20,18 @@ cd ddos_python3
 Download ZIP source code
 ```
 
-2. Edit ip/port you want to ddos
-```
-View 'ip.conf' file
-```
-
-3. Run ddos
+2. Run ddos
 
 @ Using Linux or Termux
 ```bash
 bash ./run.sh
+and insert your ip, port want to ddos
 ```
 @ Using Windows
 
 ```
 Run 'run.bat' file
+and insert your ip, port want to ddos
 ```
 
 Waiting for few seconds, ddos will start!
