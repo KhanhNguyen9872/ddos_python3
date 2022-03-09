@@ -9,6 +9,17 @@ ot = ["STOP", "TOOLS", "HELP"]
 methods = l7 + l4 + l3
 methodsl = l7 + l4 + l3 + to + ot
 
+try:
+    import os
+except:
+    print("system error!")
+    exit()
+
+def clear_screen():
+    if (os.name == "nt"):
+        os.system('cls')
+    else:
+        os.system('clear')
 
 def spoofer():
     addr = [192, 168, 0, 1]
@@ -231,6 +242,7 @@ def UrlFixer(original_url):
     original_url = original_url.strip()
     url = ""
     path = "/"
+    clear_screen()
     url = str(input("Insert IP/Web http://"))
     port = str(input("Insert Port: "))
     protocol = "http"
@@ -1553,18 +1565,19 @@ def makefile(text):
 
 if __name__ == '__main__':
     try:
-        import os, requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
+        import requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
         from time import sleep
         from icmplib import ping as pig
         from scapy.layers.inet import TCP
         from scapy.all import *
         from socket import gaierror
     except:
-        import os
-        os.system('python3 -m pip install -r requirements.txt')
-        os.system('python -m pip install -r requirements.txt')
+        if (os.name == "nt"):
+            os.system('python -m pip install -r requirements.txt')
+        else:
+            os.system('python3 -m pip install -r requirements.txt')
     try:
-        import os, requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
+        import requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
         from time import sleep
         from icmplib import ping as pig
         from scapy.layers.inet import TCP
