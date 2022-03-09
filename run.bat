@@ -19,3 +19,5 @@ echo.
 echo Error^: Python not installed
 echo.
 start "" "https://python.org/downloads/windows" 
+pause
+exit
