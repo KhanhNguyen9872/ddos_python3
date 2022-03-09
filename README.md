@@ -9,11 +9,16 @@ Requirements: `Windows 8+, Linux/Termux or Google Colab`, `Python3.9+`, `git`
 
 [INSTALL GIT PACKAGE]
 
-Linux with sudo
+@@@ Linux with sudo @@@
 ```bash
 sudo apt-get install git -y
 ```
-Termux
+@@@ Termux @@@
+1. Download Termux APK (click on Picture): 
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://f-droid.org/repo/com.termux_118.apk)
+ or 
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk)
+
 ```bash
 pkg install git -y
 ```
