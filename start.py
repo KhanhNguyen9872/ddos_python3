@@ -1559,12 +1559,17 @@ def makefile(text):
     print('File: ', text)
 
 if __name__ == '__main__':
-    import os, requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
-    from time import sleep
-    from icmplib import ping as pig
-    from scapy.layers.inet import TCP
-    from scapy.all import *
-    from socket import gaierror
+    try:
+        import os, requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
+        from time import sleep
+        from icmplib import ping as pig
+        from scapy.layers.inet import TCP
+        from scapy.all import *
+        from socket import gaierror
+    expect:
+        import os
+        os.system('python3 -m pip install -r requirements.txt')
+        os.system('python -m pip install -r requirements.txt')
     acceptall = [
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8Accept-Language: en-US,en;q=0.5Accept-Encoding: gzip, deflate",
         "Accept-Encoding: gzip, deflate",
