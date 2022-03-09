@@ -1,5 +1,5 @@
 # ddos_python3
-# You can ddos tcp by using Termux, Linux or Windows!
+# You can ddos tcp by using Windows, Linux-Termux or Google Colab!
 
 # Tutorial
 ----
