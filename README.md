@@ -3,20 +3,14 @@
 
 # Tutorial
 ----
-Requirements: `Windows 8+, Linux or Termux`, `Python3.9+`
+Requirements: `Windows 8+, Linux or Termux`, `Python3.9+`, `git`
 
 
 1. Clone this repository
 
 @ Using Linux or Termux
 ```bash
-git clone https://github.com/KhanhNguyen9872/ddos_python3.git
-```
-```bash
-chmod -R 777 ddos_python3
-```
-```bash
-cd ddos_python3
+git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
 ```
 
 @ Using Windows
