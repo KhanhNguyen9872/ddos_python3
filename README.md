@@ -1,9 +1,9 @@
 # ddos_python3
-# You can ddos tcp by using Windows, Linux-Termux or Google Colab!
+# You can ddos tcp by using Windows, Linux-Termux or Google Colab/Google Cloud Shell!
 
 # Tutorial
 ----
-Requirements: `Windows 8+, Linux/Termux or Google Colab`, `Python3.9+`, `git`
+Requirements: `Windows 8+, Linux/Termux or Google Colab/Google Cloud Shell`, `Python3.9+`, `git`
 
 # On Linux/Termux
 
@@ -59,4 +59,20 @@ and insert your ip, port want to ddos
 !bash ./run.sh
 ```
 
-Waiting for few seconds, ddos will start!
+# On Google Cloud Shell [Recommend]
+[Link Google Cloud Shell](https://shell.cloud.google.com/?show=ide%2Cterminal)
+
+1. Clone this repository [Copy and Paste into Shell]
+```bash
+git clone https://github.com/KhanhNguyen9872/ddos_python3.git &> /dev/null && chmod -R 777 * &> /dev/null && mv ./ddos_python3/* ./ &> /dev/null
+```
+2. Run script
+```bash
+bash ./run.sh
+```
+3. If you get "Error when install requirements package!", run script again!
+```bash
+bash ./run.sh
+```
+
+Insert IP, Port and waiting for few seconds, ddos will start!
