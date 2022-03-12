@@ -55,6 +55,8 @@ Insert IP, Port and waiting for few seconds, ddos will start!
 
 # On Windows 8 or up
 
+![Windows](https://github.com/KhanhNguyen9872/PublicFile/raw/main/image/ddos_python3/Windows-Tutorial.gif)
+
 1. Download this repository
 [Full Source Code](https://github.com/KhanhNguyen9872/ddos_python3/archive/refs/heads/main.zip)
 
@@ -85,6 +87,9 @@ Insert IP, Port and waiting for few seconds, ddos will start!
 
 
 # On Google Cloud Shell [Recommend]
+
+![Google CloudShell](https://github.com/KhanhNguyen9872/PublicFile/raw/main/image/ddos_python3/GoogleCloudShell-Tutorial.gif)
+
 [Link Google Cloud Shell](https://shell.cloud.google.com/?show=ide%2Cterminal)
 
 1. Clone this repository [Copy and Paste into Shell]
