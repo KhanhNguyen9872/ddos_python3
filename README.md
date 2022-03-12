@@ -57,7 +57,7 @@ Insert IP, Port and waiting for few seconds, ddos will start!
 
 ![Windows](https://github.com/KhanhNguyen9872/PublicFile/raw/main/image/ddos_python3/Windows-Tutorial.gif)
 
-1. Download this repository
+1. Download this repository and Extract it! 
 [Full Source Code](https://github.com/KhanhNguyen9872/ddos_python3/archive/refs/heads/main.zip)
 
 2. Run ddos
