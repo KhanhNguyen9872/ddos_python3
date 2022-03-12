@@ -6,17 +6,10 @@ Requirements: `Windows 8+, Linux, Termux or Google Colab/Google Cloud Shell`, `P
 
 # On Linux
 
-[INSTALL GIT PACKAGE]
-
-@@@ Linux with sudo @@@
-```bash
-sudo apt-get install git -y
-```
----------------------
 1. Clone this repository [Required git Package]
 
 ```bash
-git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
+sudo apt install git -y && git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
 ```
 2. Run ddos
 
@@ -33,16 +26,10 @@ Insert IP, Port and waiting for few seconds, ddos will start!
  or 
 [![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk)
 
-[INSTALL GIT PACKAGE]
-@@@ Termux @@@
-```bash
-pkg install git -y
-```
----------------------
 1. Clone this repository [Required git Package]
 
 ```bash
-git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
+pkg install git -y && git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
 ```
 2. Run ddos
 
