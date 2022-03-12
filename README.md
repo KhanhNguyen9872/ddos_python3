@@ -69,6 +69,8 @@ Insert IP, Port and waiting for few seconds, ddos will start!
 
 # On Google Colab [Recommend]
 
+![Google Colab](https://github.com/KhanhNguyen9872/PublicFile/raw/main/image/ddos_python3/GoogleColab-Tutorial.gif)
+
 1. Full Code [Copy and Paste into Google Colab]
 ```bash
 !apt install git -y &> /dev/null
