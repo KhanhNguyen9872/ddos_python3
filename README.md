@@ -21,6 +21,9 @@ Insert IP, Port and waiting for few seconds, ddos will start!
 
 
 # On Termux
+
+![Termux](https://github.com/KhanhNguyen9872/PublicFile/raw/main/image/ddos_python3/Termux-Tutorial.gif)
+
 1. Download Termux APK (click on Picture): 
 [![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://f-droid.org/repo/com.termux_118.apk)
  or 
