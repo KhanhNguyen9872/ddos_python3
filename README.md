@@ -1,11 +1,10 @@
 # ddos_python3
 # You can ddos tcp by using Windows, Linux-Termux or Google Colab/Google Cloud Shell!
 
-# Tutorial
 ----
-Requirements: `Windows 8+, Linux/Termux or Google Colab/Google Cloud Shell`, `Python3.9+`, `git`
+Requirements: `Windows 8+, Linux, Termux or Google Colab/Google Cloud Shell`, `Python3.9+`, `git`
 
-# On Linux/Termux
+# On Linux
 
 [INSTALL GIT PACKAGE]
 
@@ -13,16 +12,7 @@ Requirements: `Windows 8+, Linux/Termux or Google Colab/Google Cloud Shell`, `Py
 ```bash
 sudo apt-get install git -y
 ```
-@@@ Termux @@@
-1. Download Termux APK (click on Picture): 
-[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://f-droid.org/repo/com.termux_118.apk)
- or 
-[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk)
-
-```bash
-pkg install git -y
-```
-
+---------------------
 1. Clone this repository [Required git Package]
 
 ```bash
@@ -33,7 +23,35 @@ git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 dd
 ```bash
 bash ./run.sh
 ```
-and insert your ip, port want to ddos
+Insert IP, Port and waiting for few seconds, ddos will start!
+
+
+
+# On Termux
+1. Download Termux APK (click on Picture): 
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://f-droid.org/repo/com.termux_118.apk)
+ or 
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk)
+
+[INSTALL GIT PACKAGE]
+@@@ Termux @@@
+```bash
+pkg install git -y
+```
+---------------------
+1. Clone this repository [Required git Package]
+
+```bash
+git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
+```
+2. Run ddos
+
+```bash
+bash ./run-termux.sh
+```
+Insert IP, Port and waiting for few seconds, ddos will start!
+
+
 
 # On Windows 8 or up
 
@@ -44,8 +62,10 @@ and insert your ip, port want to ddos
 
 ```
 Run 'run.bat' file
-and insert your ip, port want to ddos
 ```
+Insert IP, Port and waiting for few seconds, ddos will start!
+
+
 
 # On Google Colab [Recommend]
 
@@ -58,6 +78,9 @@ and insert your ip, port want to ddos
 !mv ./ddos_python3/* ./ &> /dev/null
 !bash ./run.sh
 ```
+Insert IP, Port and waiting for few seconds, ddos will start!
+
+
 
 # On Google Cloud Shell [Recommend]
 [Link Google Cloud Shell](https://shell.cloud.google.com/?show=ide%2Cterminal)
