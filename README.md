@@ -9,12 +9,12 @@ Requirements: `Windows 8+, Linux, Termux or Google Colab/Google Cloud Shell`, `P
 1. Clone this repository [Required git Package]
 
 ```bash
-sudo apt install git -y && git clone https://github.com/KhanhNguyen9872/ddos_python3.git && chmod -R 777 ddos_python3 && cd ddos_python3
+sudo apt install git -y; sudo git clone https://github.com/KhanhNguyen9872/ddos_python3.git; sudo chmod -R 777 ddos_python3; cd ddos_python3
 ```
 2. Run ddos
 
 ```bash
-bash ./run.sh
+sudo bash ./run.sh
 ```
 Insert IP, Port and waiting for few seconds, ddos will start!
 
