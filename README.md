@@ -96,3 +96,8 @@ bash ./run.sh
 ```
 
 Insert IP, Port and waiting for few seconds, ddos will start!
+
+
+# Video Test http://18.141.194.31
+https://github.com/KhanhNguyen9872/ddos_python3/releases/download/video/2022-06-12.19-37-14.mp4
+
