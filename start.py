@@ -241,10 +241,18 @@ def UrlFixer(original_url):
     global target, path, port, protocol
     original_url = original_url.strip()
     url = ""
+    port = ""
     path = "/"
     clear_screen()
-    url = str(input("Insert IP/Web http://"))
-    port = str(input("Insert Port: "))
+    for i in sys.argv:
+        if (str(i).replace("="," ").split(" ")[0] == "ip"):
+            url=str(str(i).replace("="," ").split(" ")[1])
+        if (str(i).replace("="," ").split(" ")[0] == "port"):
+            port=str(str(i).replace("="," ").split(" ")[1])
+    while (url == ""):
+        url = str(input("Insert IP/Web http://"))
+    while (port == ""):
+        port = str(input("Insert Port: "))
     protocol = "http"
     tmp = url.split("/")
     if (port=="443"):

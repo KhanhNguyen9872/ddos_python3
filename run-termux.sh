@@ -7,5 +7,5 @@ if [ ! -f ~/../usr/bin/python3 ]; then
   pkg install wget python3 -y
 fi
 cd ~/ddos_python3
-python3 start.py get khanh 1 120 socket5.txt 65500 999999999999999
+python3 start.py get khanh 1 120 socket5.txt 65500 999999999999999 $@
 exit

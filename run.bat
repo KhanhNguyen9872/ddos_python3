@@ -7,7 +7,7 @@ if errorlevel 1 goto ERROR
 goto MAIN
 
 :MAIN
-python start.py get khanh 1 120 socket5.txt 65500 999999999999999
+python start.py get khanh 1 120 socket5.txt 65500 999999999999999 %1 %2
 pause
 exit
 
