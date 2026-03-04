@@ -1581,9 +1581,9 @@ if __name__ == '__main__':
         from socket import gaierror
     except:
         if (os.name == "nt"):
-            os.system('python -m pip install -r requirements.txt')
+            os.system('python -m pip install --break-system-packages -r requirements.txt')
         else:
-            os.system('python3 -m pip install -r requirements.txt')
+            os.system('python3 -m pip install --break-system-packages -r requirements.txt')
     try:
         import requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
         from time import sleep
@@ -1591,8 +1591,8 @@ if __name__ == '__main__':
         from scapy.layers.inet import TCP
         from scapy.all import *
         from socket import gaierror
-    except:
-        print("Error when install requirements package!")
+    except Exception as e:
+        print("Error when install requirements package! " + str(e))
         exit()
     acceptall = [
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8Accept-Language: en-US,en;q=0.5Accept-Encoding: gzip, deflate",

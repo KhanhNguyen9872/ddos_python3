@@ -4,3 +4,4 @@ socks
 cfscrape
 icmplib
 scapy
+urllib3<2.0
