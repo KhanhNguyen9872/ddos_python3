@@ -1573,6 +1573,9 @@ def makefile(text):
 
 if __name__ == '__main__':
     try:
+        import urllib3.util.ssl_
+        if not hasattr(urllib3.util.ssl_, 'DEFAULT_CIPHERS'):
+            urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS_AES_256_GCM_SHA384:ECDHE-ECDSA-AES256-SHA384"
         import requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
         from time import sleep
         from icmplib import ping as pig
@@ -1584,7 +1587,12 @@ if __name__ == '__main__':
             os.system('python -m pip install --break-system-packages -r requirements.txt')
         else:
             os.system('python3 -m pip install --break-system-packages -r requirements.txt')
+        import os, sys
+        os.execl(sys.executable, sys.executable, *sys.argv)
     try:
+        import urllib3.util.ssl_
+        if not hasattr(urllib3.util.ssl_, 'DEFAULT_CIPHERS'):
+            urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS_AES_256_GCM_SHA384:ECDHE-ECDSA-AES256-SHA384"
         import requests, socket, socks, time, random, threading, sys, ssl, datetime, cfscrape, re
         from time import sleep
         from icmplib import ping as pig
